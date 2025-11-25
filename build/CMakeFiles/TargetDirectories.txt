@@ -1,0 +1,5 @@
+/root/Work/Code/my_dds/build/CMakeFiles/tinydds.dir
+/root/Work/Code/my_dds/build/CMakeFiles/test_sequence_number.dir
+/root/Work/Code/my_dds/build/CMakeFiles/test.dir
+/root/Work/Code/my_dds/build/CMakeFiles/edit_cache.dir
+/root/Work/Code/my_dds/build/CMakeFiles/rebuild_cache.dir
