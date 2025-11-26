@@ -1,2 +1,2 @@
-/usr/bin/aarch64-linux-gnu-ar qc ../lib/libtinydds.a CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o
+/usr/bin/aarch64-linux-gnu-ar qc ../lib/libtinydds.a CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o CMakeFiles/tinydds.dir/src/rtps/locator.cpp.o
 /usr/bin/aarch64-linux-gnu-ranlib ../lib/libtinydds.a

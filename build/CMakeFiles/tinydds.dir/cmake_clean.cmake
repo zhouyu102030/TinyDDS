@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o.d"
   "CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o"
   "CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o.d"
+  "CMakeFiles/tinydds.dir/src/rtps/locator.cpp.o"
+  "CMakeFiles/tinydds.dir/src/rtps/locator.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

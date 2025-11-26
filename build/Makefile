@@ -165,6 +165,19 @@ test_cdr/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cdr.dir/build.make CMakeFiles/test_cdr.dir/build
 .PHONY : test_cdr/fast
 
+#=============================================================================
+# Target rules for targets named test_locator
+
+# Build rule for target.
+test_locator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_locator
+.PHONY : test_locator
+
+# fast build rule for target.
+test_locator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_locator.dir/build.make CMakeFiles/test_locator.dir/build
+.PHONY : test_locator/fast
+
 src/rtps/cdr.o: src/rtps/cdr.cpp.o
 .PHONY : src/rtps/cdr.o
 
@@ -213,6 +226,30 @@ src/rtps/guid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydds.dir/build.make CMakeFiles/tinydds.dir/src/rtps/guid.cpp.s
 .PHONY : src/rtps/guid.cpp.s
 
+src/rtps/locator.o: src/rtps/locator.cpp.o
+.PHONY : src/rtps/locator.o
+
+# target to build an object file
+src/rtps/locator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydds.dir/build.make CMakeFiles/tinydds.dir/src/rtps/locator.cpp.o
+.PHONY : src/rtps/locator.cpp.o
+
+src/rtps/locator.i: src/rtps/locator.cpp.i
+.PHONY : src/rtps/locator.i
+
+# target to preprocess a source file
+src/rtps/locator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydds.dir/build.make CMakeFiles/tinydds.dir/src/rtps/locator.cpp.i
+.PHONY : src/rtps/locator.cpp.i
+
+src/rtps/locator.s: src/rtps/locator.cpp.s
+.PHONY : src/rtps/locator.s
+
+# target to generate assembly for a file
+src/rtps/locator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydds.dir/build.make CMakeFiles/tinydds.dir/src/rtps/locator.cpp.s
+.PHONY : src/rtps/locator.cpp.s
+
 tests/test_cdr.o: tests/test_cdr.cpp.o
 .PHONY : tests/test_cdr.o
 
@@ -236,6 +273,30 @@ tests/test_cdr.s: tests/test_cdr.cpp.s
 tests/test_cdr.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cdr.dir/build.make CMakeFiles/test_cdr.dir/tests/test_cdr.cpp.s
 .PHONY : tests/test_cdr.cpp.s
+
+tests/test_locator.o: tests/test_locator.cpp.o
+.PHONY : tests/test_locator.o
+
+# target to build an object file
+tests/test_locator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_locator.dir/build.make CMakeFiles/test_locator.dir/tests/test_locator.cpp.o
+.PHONY : tests/test_locator.cpp.o
+
+tests/test_locator.i: tests/test_locator.cpp.i
+.PHONY : tests/test_locator.i
+
+# target to preprocess a source file
+tests/test_locator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_locator.dir/build.make CMakeFiles/test_locator.dir/tests/test_locator.cpp.i
+.PHONY : tests/test_locator.cpp.i
+
+tests/test_locator.s: tests/test_locator.cpp.s
+.PHONY : tests/test_locator.s
+
+# target to generate assembly for a file
+tests/test_locator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_locator.dir/build.make CMakeFiles/test_locator.dir/tests/test_locator.cpp.s
+.PHONY : tests/test_locator.cpp.s
 
 tests/test_sequence_number.o: tests/test_sequence_number.cpp.o
 .PHONY : tests/test_sequence_number.o
@@ -271,6 +332,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... test_cdr"
+	@echo "... test_locator"
 	@echo "... test_sequence_number"
 	@echo "... tinydds"
 	@echo "... src/rtps/cdr.o"
@@ -279,9 +341,15 @@ help:
 	@echo "... src/rtps/guid.o"
 	@echo "... src/rtps/guid.i"
 	@echo "... src/rtps/guid.s"
+	@echo "... src/rtps/locator.o"
+	@echo "... src/rtps/locator.i"
+	@echo "... src/rtps/locator.s"
 	@echo "... tests/test_cdr.o"
 	@echo "... tests/test_cdr.i"
 	@echo "... tests/test_cdr.s"
+	@echo "... tests/test_locator.o"
+	@echo "... tests/test_locator.i"
+	@echo "... tests/test_locator.s"
 	@echo "... tests/test_sequence_number.o"
 	@echo "... tests/test_sequence_number.i"
 	@echo "... tests/test_sequence_number.s"

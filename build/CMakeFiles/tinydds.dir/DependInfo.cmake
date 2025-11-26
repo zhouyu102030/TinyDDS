@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/Work/Code/my_dds/src/rtps/cdr.cpp" "CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o" "gcc" "CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o.d"
   "/root/Work/Code/my_dds/src/rtps/guid.cpp" "CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o" "gcc" "CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o.d"
+  "/root/Work/Code/my_dds/src/rtps/locator.cpp" "CMakeFiles/tinydds.dir/src/rtps/locator.cpp.o" "gcc" "CMakeFiles/tinydds.dir/src/rtps/locator.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -46,3 +46,7 @@ target_link_libraries(test_sequence_number tinydds)
 # 添加 CDR 测试
 add_executable(test_cdr tests/test_cdr.cpp)
 target_link_libraries(test_cdr tinydds)
+
+# 添加 LOC 测试
+add_executable(test_locator tests/test_locator.cpp)
+# target_link_libraries(test_locator tinydds)

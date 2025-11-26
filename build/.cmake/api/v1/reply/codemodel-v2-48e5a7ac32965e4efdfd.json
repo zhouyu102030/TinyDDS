@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -49,6 +51,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "test_locator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_locator-Debug-0f7381649c1475837047.json",
+					"name" : "test_locator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "test_sequence_number::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-test_sequence_number-Debug-688b7d57b2cca8270de2.json",
 					"name" : "test_sequence_number",
@@ -57,7 +66,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "tinydds::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tinydds-Debug-f877f1eb91f85ff44cc3.json",
+					"jsonFile" : "target-tinydds-Debug-c586b810ecc6e4886e87.json",
 					"name" : "tinydds",
 					"projectIndex" : 0
 				}
