@@ -152,6 +152,43 @@ test_sequence_number/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sequence_number.dir/build.make CMakeFiles/test_sequence_number.dir/build
 .PHONY : test_sequence_number/fast
 
+#=============================================================================
+# Target rules for targets named test_cdr
+
+# Build rule for target.
+test_cdr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_cdr
+.PHONY : test_cdr
+
+# fast build rule for target.
+test_cdr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cdr.dir/build.make CMakeFiles/test_cdr.dir/build
+.PHONY : test_cdr/fast
+
+src/rtps/cdr.o: src/rtps/cdr.cpp.o
+.PHONY : src/rtps/cdr.o
+
+# target to build an object file
+src/rtps/cdr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydds.dir/build.make CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o
+.PHONY : src/rtps/cdr.cpp.o
+
+src/rtps/cdr.i: src/rtps/cdr.cpp.i
+.PHONY : src/rtps/cdr.i
+
+# target to preprocess a source file
+src/rtps/cdr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydds.dir/build.make CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.i
+.PHONY : src/rtps/cdr.cpp.i
+
+src/rtps/cdr.s: src/rtps/cdr.cpp.s
+.PHONY : src/rtps/cdr.s
+
+# target to generate assembly for a file
+src/rtps/cdr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydds.dir/build.make CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.s
+.PHONY : src/rtps/cdr.cpp.s
+
 src/rtps/guid.o: src/rtps/guid.cpp.o
 .PHONY : src/rtps/guid.o
 
@@ -175,6 +212,30 @@ src/rtps/guid.s: src/rtps/guid.cpp.s
 src/rtps/guid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydds.dir/build.make CMakeFiles/tinydds.dir/src/rtps/guid.cpp.s
 .PHONY : src/rtps/guid.cpp.s
+
+tests/test_cdr.o: tests/test_cdr.cpp.o
+.PHONY : tests/test_cdr.o
+
+# target to build an object file
+tests/test_cdr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cdr.dir/build.make CMakeFiles/test_cdr.dir/tests/test_cdr.cpp.o
+.PHONY : tests/test_cdr.cpp.o
+
+tests/test_cdr.i: tests/test_cdr.cpp.i
+.PHONY : tests/test_cdr.i
+
+# target to preprocess a source file
+tests/test_cdr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cdr.dir/build.make CMakeFiles/test_cdr.dir/tests/test_cdr.cpp.i
+.PHONY : tests/test_cdr.cpp.i
+
+tests/test_cdr.s: tests/test_cdr.cpp.s
+.PHONY : tests/test_cdr.s
+
+# target to generate assembly for a file
+tests/test_cdr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cdr.dir/build.make CMakeFiles/test_cdr.dir/tests/test_cdr.cpp.s
+.PHONY : tests/test_cdr.cpp.s
 
 tests/test_sequence_number.o: tests/test_sequence_number.cpp.o
 .PHONY : tests/test_sequence_number.o
@@ -209,11 +270,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... test_cdr"
 	@echo "... test_sequence_number"
 	@echo "... tinydds"
+	@echo "... src/rtps/cdr.o"
+	@echo "... src/rtps/cdr.i"
+	@echo "... src/rtps/cdr.s"
 	@echo "... src/rtps/guid.o"
 	@echo "... src/rtps/guid.i"
 	@echo "... src/rtps/guid.s"
+	@echo "... tests/test_cdr.o"
+	@echo "... tests/test_cdr.i"
+	@echo "... tests/test_cdr.s"
 	@echo "... tests/test_sequence_number.o"
 	@echo "... tests/test_sequence_number.i"
 	@echo "... tests/test_sequence_number.s"

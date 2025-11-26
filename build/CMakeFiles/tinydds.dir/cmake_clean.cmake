@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../lib/libtinydds.a"
   "../lib/libtinydds.pdb"
+  "CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o"
+  "CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o.d"
   "CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o"
   "CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o.d"
 )

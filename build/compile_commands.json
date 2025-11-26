@@ -1,6 +1,11 @@
 [
 {
   "directory": "/root/Work/Code/my_dds/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/root/Work/Code/my_dds/include  -Wall -Wextra -Wpedantic -g -o CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o -c /root/Work/Code/my_dds/src/rtps/cdr.cpp",
+  "file": "/root/Work/Code/my_dds/src/rtps/cdr.cpp"
+},
+{
+  "directory": "/root/Work/Code/my_dds/build",
   "command": "/usr/bin/aarch64-linux-gnu-g++  -I/root/Work/Code/my_dds/include  -Wall -Wextra -Wpedantic -g -o CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o -c /root/Work/Code/my_dds/src/rtps/guid.cpp",
   "file": "/root/Work/Code/my_dds/src/rtps/guid.cpp"
 },
@@ -8,5 +13,10 @@
   "directory": "/root/Work/Code/my_dds/build",
   "command": "/usr/bin/aarch64-linux-gnu-g++  -I/root/Work/Code/my_dds/include  -Wall -Wextra -Wpedantic -g -o CMakeFiles/test_sequence_number.dir/tests/test_sequence_number.cpp.o -c /root/Work/Code/my_dds/tests/test_sequence_number.cpp",
   "file": "/root/Work/Code/my_dds/tests/test_sequence_number.cpp"
+},
+{
+  "directory": "/root/Work/Code/my_dds/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/root/Work/Code/my_dds/include  -Wall -Wextra -Wpedantic -g -o CMakeFiles/test_cdr.dir/tests/test_cdr.cpp.o -c /root/Work/Code/my_dds/tests/test_cdr.cpp",
+  "file": "/root/Work/Code/my_dds/tests/test_cdr.cpp"
 }
 ]

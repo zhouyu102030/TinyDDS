@@ -42,3 +42,7 @@ add_executable(test_sequence_number  tests/test_sequence_number.cpp)
 # 链接时：链接器会将 tinydds 的二进制代码合并到最终的可执行文件中
 # 运行时：可执行文件能够调用 tinydds 库中的函数和类
 target_link_libraries(test_sequence_number tinydds)
+
+# 添加 CDR 测试
+add_executable(test_cdr tests/test_cdr.cpp)
+target_link_libraries(test_cdr tinydds)

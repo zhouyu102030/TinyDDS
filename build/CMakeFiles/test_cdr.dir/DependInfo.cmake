@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/Work/Code/my_dds/src/rtps/cdr.cpp" "CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o" "gcc" "CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o.d"
-  "/root/Work/Code/my_dds/src/rtps/guid.cpp" "CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o" "gcc" "CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o.d"
+  "/root/Work/Code/my_dds/tests/test_cdr.cpp" "CMakeFiles/test_cdr.dir/tests/test_cdr.cpp.o" "gcc" "CMakeFiles/test_cdr.dir/tests/test_cdr.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/root/Work/Code/my_dds/build/CMakeFiles/tinydds.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++  -Wall -Wextra -Wpedantic -g CMakeFiles/test_cdr.dir/tests/test_cdr.cpp.o -o ../bin/test_cdr  ../lib/libtinydds.a -lpthread 

@@ -69,10 +69,24 @@ include CMakeFiles/tinydds.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tinydds.dir/flags.make
 
+CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o: CMakeFiles/tinydds.dir/flags.make
+CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o: ../src/rtps/cdr.cpp
+CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o: CMakeFiles/tinydds.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Work/Code/my_dds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o"
+	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o -MF CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o.d -o CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o -c /root/Work/Code/my_dds/src/rtps/cdr.cpp
+
+CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.i"
+	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Work/Code/my_dds/src/rtps/cdr.cpp > CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.i
+
+CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.s"
+	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Work/Code/my_dds/src/rtps/cdr.cpp -o CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.s
+
 CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o: CMakeFiles/tinydds.dir/flags.make
 CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o: ../src/rtps/guid.cpp
 CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o: CMakeFiles/tinydds.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Work/Code/my_dds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Work/Code/my_dds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o"
 	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o -MF CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o.d -o CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o -c /root/Work/Code/my_dds/src/rtps/guid.cpp
 
 CMakeFiles/tinydds.dir/src/rtps/guid.cpp.i: cmake_force
@@ -85,15 +99,17 @@ CMakeFiles/tinydds.dir/src/rtps/guid.cpp.s: cmake_force
 
 # Object files for target tinydds
 tinydds_OBJECTS = \
+"CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o" \
 "CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o"
 
 # External object files for target tinydds
 tinydds_EXTERNAL_OBJECTS =
 
+../lib/libtinydds.a: CMakeFiles/tinydds.dir/src/rtps/cdr.cpp.o
 ../lib/libtinydds.a: CMakeFiles/tinydds.dir/src/rtps/guid.cpp.o
 ../lib/libtinydds.a: CMakeFiles/tinydds.dir/build.make
 ../lib/libtinydds.a: CMakeFiles/tinydds.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Work/Code/my_dds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../lib/libtinydds.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Work/Code/my_dds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../lib/libtinydds.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/tinydds.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tinydds.dir/link.txt --verbose=$(VERBOSE)
 

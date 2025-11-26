@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,12 +33,20 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "test_cdr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_cdr-Debug-1a29c7f30b0ebfedc92b.json",
+					"name" : "test_cdr",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_sequence_number::@6890427a1f51a3e7e1df",
@@ -48,7 +57,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "tinydds::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tinydds-Debug-911ecc2acf4be6773f8a.json",
+					"jsonFile" : "target-tinydds-Debug-f877f1eb91f85ff44cc3.json",
 					"name" : "tinydds",
 					"projectIndex" : 0
 				}
